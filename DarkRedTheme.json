@@ -1,0 +1,120 @@
+{
+  "name": "Dark Red Death Analysis",
+  "dataColors": [
+    "#E63946",
+    "#FF6B6B",
+    "#C1121F",
+    "#FF4D4D",
+    "#FFB3B3",
+    "#9D0208",
+    "#D90429",
+    "#EF233C"
+  ],
+  "background": "#1A1A1A",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#E63946",
+  "good": "#52B788",
+  "neutral": "#FFB703",
+  "bad": "#E63946",
+  "maximum": "#E63946",
+  "center": "#FF6B6B",
+  "minimum": "#1A1A1A",
+  "null": "#666666",
+  "textClasses": {
+    "callout": {
+      "fontSize": 36,
+      "fontFace": "Segoe UI",
+      "color": "#FFFFFF"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "header": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#CCCCCC"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#2D2D2D" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E63946" } },
+            "radius": 12
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#1A1A1A" } }
+          }
+        ],
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#2D2D2D" } },
+            "alignment": "left",
+            "fontSize": 14,
+            "bold": true
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 36
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#CCCCCC" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#2D2D2D" } }
+          }
+        ],
+        "items": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#2D2D2D" } }
+          }
+        ]
+      }
+    }
+  }
+}

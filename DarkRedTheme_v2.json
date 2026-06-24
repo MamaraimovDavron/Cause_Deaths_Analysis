@@ -1,0 +1,52 @@
+{
+  "name": "Dark Red Death Analysis",
+  "dataColors": [
+    "#E63946",
+    "#FF6B6B",
+    "#C1121F",
+    "#FF4D4D",
+    "#FFB3B3",
+    "#9D0208",
+    "#D90429",
+    "#EF233C"
+  ],
+  "background": "#1A1A1A",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#E63946",
+  "good": "#52B788",
+  "neutral": "#FFB703",
+  "bad": "#E63946",
+  "maximum": "#E63946",
+  "center": "#FF6B6B",
+  "minimum": "#1A1A1A",
+  "null": "#666666",
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#1A1A1A" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#2D2D2D" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E63946" } },
+            "radius": 12
+          }
+        ]
+      }
+    }
+  }
+}
